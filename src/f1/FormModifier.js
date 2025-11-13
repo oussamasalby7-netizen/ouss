@@ -19,7 +19,7 @@ export default function FormModifier({ Stagiaire, onEdit }) {
       Adresse: <input type="text" name="adresse" value={editStagiaire.adresse} onChange={handleChange} /><br/>
       Ville:
       <select name="ville" value={editStagiaire.ville} onChange={handleChange}>
-        <option value="">-choisir-</option>
+        <option value="">-choisirrrrrr-</option>
         <option value="Rabat">Rabat</option>
         <option value="Fus">Fus</option>
         <option value="Casablanca">Casablanca</option>
