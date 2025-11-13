@@ -1,0 +1,43 @@
+/* Container */
+.stagiaire-form {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Labels and inputs */
+.stagiaire-form input,
+.stagiaire-form select {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 8px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Button */
+.stagiaire-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.stagiaire-form button:hover {
+  background-color: #45a049;
+}
+
+/* Optional: title */
+.stagiaire-form label {
+  font-weight: bold;
+}
